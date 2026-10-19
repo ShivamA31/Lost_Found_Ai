@@ -1,0 +1,25 @@
+﻿# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated output and caches
+frontend/dist/
+**/__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Uploaded user files and local runtime data
+backend/uploads/
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
